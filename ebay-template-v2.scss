@@ -1,0 +1,540 @@
+.blinq-ebay-wrapper {
+  width: 960px;
+  margin: 0px auto;
+  font-family: "Open Sans", "PT Sans", Verdana, sans-serif;
+}
+
+.blinq-ebay-wrapper img {
+  margin: 0px;
+  padding: 0px;
+}
+
+.blinq-ebay-wrapper strong {
+  margin-right: 3px;
+}
+
+.blinq-ebay-wrapper .blinq-header {
+  position: relative;
+  width: 960px;
+  height: 78px;
+  display: block;
+  overflow: hidden;
+}
+
+.blinq-ebay-wrapper .blinq-header a,
+.blinq-ebay-wrapper .blinq-header img {
+  float: left; 
+}
+
+/* Search */
+
+.blinq-ebay-wrapper .blinq-header .blinq-search {
+  position: absolute;
+  z-index: 100;
+  top: 25px;
+  left: 190px;
+  display: block;
+}
+
+.blinq-ebay-wrapper .blinq-header .blinq-search input {
+  border: 1px solid #d9d9d9;
+  width: 360px;
+  font-size: 13px;
+  padding: 9px 52px 9px 9px;
+  height: 38px;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+
+}
+
+.blinq-ebay-wrapper .blinq-header .blinq-search button {
+  border: 0px;
+  width: 43px;
+  height: 32px;
+  text-indent: 9999px;
+  cursor: pointer;
+  margin-left: -47px;
+  background: url('images/header-5-search.gif') top left no-repeat;
+}
+
+
+
+/* Nav */
+.blinq-ebay-wrapper .blinq-nav {
+  display: block;
+  width: 960px;
+  height: 38px;
+  float: none;
+  clear: both;
+}
+
+.blinq-ebay-wrapper .blinq-nav a {
+  float: left;
+}
+
+
+
+/* Content */
+.blinq-ebay-wrapper .blinq-content {
+  overflow: hidden;
+  padding: 30px 0px;
+  clear: both;
+}
+
+.blinq-ebay-wrapper .blinq-content .blinq-left-col {
+  float: left;
+  width: 340px;
+}
+
+.blinq-ebay-wrapper .blinq-content .blinq-right-col {
+  float: left;
+  width: 620px;
+}
+.blinq-ebay-wrapper .blinq-content .blinq-left-col .content-padding {
+  padding: 0px 0px 0px 40px;
+}
+
+
+.blinq-ebay-wrapper .blinq-content .blinq-right-col .content-padding {
+  padding: 0px 40px;
+}
+
+ul.blinq-product-details {
+  font-size: 12px;
+  line-height: 18px;
+  color: #6b6b6b;
+  padding: 10px 0px;
+  list-style: none;
+  overflow: hidden;
+}
+
+ul.blinq-product-details li {
+  float: left;
+  padding-right: 15px;
+}
+
+ul.blinq-product-details li strong {
+  font-weight: bold;
+}
+
+h1.blinq-product-title {
+  font-size: 22px;
+  line-height: 26px;
+  margin: 0px 0px 0px 0px;
+  color: black;
+}
+
+/* Condition Box */
+.blinq-condition-and-price {
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,.3);
+  overflow: hidden;
+  position: relative;
+}
+
+.blinq-condition-and-price .padding {
+  padding: 20px;
+}
+
+.blinq-condition-and-price .condition {
+  float: left;
+  width: 50%;
+  background: #f4f4f4;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.blinq-condition-and-price .condition strong {
+  font-weight: bold;
+}
+
+.blinq-condition-and-price .condition h2 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0px 0px 5px 0px; 
+}
+
+.blinq-condition-and-price .condition ul {
+  padding: 0px 0px 0px 20px;
+  list-style: disc;
+}
+
+.blinq-condition-and-price .price {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+
+.blinq-condition-and-price .price .padding {
+  padding: 30px 50px 0px 20px;
+}
+
+.savings-msrp {
+  font-size: 15px;
+  font-weight: normal;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.savings-msrp strike {
+  margin-left: 4px;
+}
+
+.savings-percentage {
+  background: #dc4444;
+  border-top-right-radius: 3px;
+  padding: 6px;
+  color: white;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 13px;
+  position: relative;
+  display: block;
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 72px;
+  height: 72px;
+  background: url('images/content-save.png') top right no-repeat;
+}
+
+.savings-price {
+  color: #dc4444;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.limited-qty {
+  background: #299cde;
+  display: inline-block;
+  clear: both;
+  float: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  color: white;
+  white-space: nowrap;
+}
+
+.blinq-promise {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.blinq-listing-content {
+  font-size: 13px;
+  line-height: 18px;
+  display: block;
+}
+		  
+.blinq-listing-content h2 {
+  font-size: 17px;
+  margin: 0px 0px 10px 0px;
+  font-weight: bold;
+}
+
+.blinq-listing-content h3 {
+  margin: 0px 0px 5px 0px;
+  font-size: 14px;
+  color: #7b7b7b;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.blinq-listing-content ul {
+  padding: 0px 0px 15px 20px;
+  list-style: disc;
+}
+
+.blinq-listing-content ul li {
+  padding-bottom: 3px;
+}
+
+.blinq-listing-content strong,
+.blinq-listing-content b {
+  font-weight: bold;
+}
+
+/* Product Images */
+#blinq-product-image {
+  text-align: center;
+  overflow: hidden;
+  display: block;
+  height: 320px;
+}
+
+#blinq-product-image:hover {
+}
+
+#blinq-product-image img {
+  width: 300px;
+  height: auto;
+  border: 0px;
+}
+
+.click-to-enlarge {
+  font-size: 11px;
+  color: #6b6b6b;
+  text-align: center;
+  display: block;
+  padding: 10px 0px;
+}
+
+#thumb-container {
+  overflow: hidden;
+}
+
+#thumb-container a {
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+
+#thumb-container a:hover {
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,.3);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+
+
+#thumb-container a img {
+  max-width: 60px;
+  vertical-align: top;
+}
+
+/* FAQs */
+
+.blinq-faq {
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  background: #f4f4f4;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 0px;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,.3);
+  overflow: hidden;
+}
+
+.blinq-faq h2 {
+  margin: 0px 0px 20px 0px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.blinq-faq h3 {
+  margin: 0px 0px 5px 0px;
+  font-size: 14px;
+  color: #7b7b7b;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.blinq-faq h4 {
+  margin: 0px 0px 0px 0px;
+  font-weight: bold;
+}
+
+.blinq-faq ul {
+  list-style: none;
+  padding: 0px 0px 10px 0px;
+  margin: 0px;
+}
+
+.blinq-faq ul li {
+  list-style: none;
+  padding: 0px 0px 13px 0px;
+}
+
+.blinq-faq ul b {
+  margin-right: 3px;
+}
+
+.blinq-faq a {
+  margin-left: 3px;
+}
+
+.blinq-faq .blinq-left-faq-column,
+.blinq-faq .blinq-right-faq-column {
+  float: left;
+  width: 46%;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.blinq-faq .blinq-left-faq-column {
+  margin-right: 2%;
+}
+
+.blinq-faq .blinq-right-faq-column {
+  margin-left: 2%;
+}
+
+/* Crispin Glover */
+p#lookup {
+  color: #a9a9a9;
+  font-size: 12px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+
+p#lookup span {
+  display: inline-block;
+  padding-right: 13px;
+}
+
+
+
+/* ---------------- MOBILE RESPONSIVENESS ----------------*/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .blinq-ebay-wrapper {
+    width: 360px;
+    display: block;
+    padding: 0px 20px 20px 20px;
+    margin: 0px auto;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+  }
+
+  .blinq-ebay-wrapper .blinq-header a[href="http://stores.ebay.com/BLINQ"] {
+    display: block;
+    clear: both;
+    float: none;
+  }
+
+  .blinq-ebay-wrapper .blinq-header img[alt="header-1-blinq"] {
+    left: -25px;
+    width: 182px;
+    height: 78px;
+    position: relative;
+  }
+
+  .blinq-ebay-wrapper .blinq-header img[alt="header-6-blinq"],
+  .blinq-ebay-wrapper .blinq-header img[alt="header-4-faq"] {
+    display: none;
+  }
+
+  .blinq-ebay-wrapper .blinq-header {
+    height: 120px;
+    overflow: hidden;
+    width: auto;
+  }
+
+  .blinq-ebay-wrapper .blinq-header img {
+    width: 80%;
+    height: auto;
+  }
+
+  .blinq-ebay-wrapper .blinq-header a {
+    height: 70px;
+    overflow: hidden;
+  }
+
+  .blinq-ebay-wrapper .blinq-header .blinq-search,
+  .blinq-ebay-wrapper .blinq-nav {
+    display: none;
+  }
+
+  .blinq-ebay-wrapper .blinq-content .blinq-left-col,
+  .blinq-ebay-wrapper .blinq-content .blinq-right-col {
+    float: none;
+    width: 100%;
+  }
+
+  .blinq-ebay-wrapper .blinq-content .blinq-left-col .content-padding,
+  .blinq-ebay-wrapper .blinq-content .blinq-right-col .content-padding {
+    padding: 0px;
+  }
+
+  #thumb-container {
+    height: 80px;
+    padding-bottom: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: block;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #thumb-container a {
+    float: none;
+  }
+
+
+  ul.blinq-product-details {
+    padding: 20px 0px;
+  }
+
+  .blinq-condition-and-price .condition, 
+  .blinq-condition-and-price .price {
+    width: auto;
+    float: none;
+    display: block;
+  }
+
+  .blinq-promise img {
+    width: 100%;
+    height: auto;
+  }
+
+  .blinq-faq .blinq-left-faq-column, 
+  .blinq-faq .blinq-right-faq-column {
+    margin: 0px;
+    width: auto;
+    display: block;
+  }
+
+  .blinq-condition-and-price .price {
+    position: relative;
+  }
+
+  .blinq-condition-and-price .price .padding {
+    padding: 30px 50px 30px 30px;
+  }
+
+  .savings-price {
+    clear: both;
+    float: none;
+    display: block;
+  }
+
+  h1.blinq-product-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+  }
+}
+
+
+
+
+
+
